@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head> 
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+
+		<title> Office Trivia </title>
+
+	</head>
+
+	<body>
+
+		<div class="container justify-content-center">
+
+				<div class="officeImg text-center">
+
+					<img src="assets/images/OfficePic3.jpg">
+
+				</div>
+			
+			<div id="game">
+
+
+			<div class="row justify-content-center">
+				<br>
+				<div id="timeRemaining"> <i class="fas fa-cog fa-pulse fa-lg"></i> </div>
+				<br>
+			</div>
+			
+
+
+			<div class="row justify-content-center">	
+				<form name="que_one">
+
+					What is Andy's nickname for Jim? 
+
+					<br>
+
+					<input type="radio" name="choice" class="Cor"> Tuna
+					<input type="radio" name="choice" class="Wrong"> Bass
+					<input type="radio" name="choice" class="Wrong"> Trout
+					<input type="radio" name="choice" class="Wrong"> Salmon
+
+				</form>
+			</div>
+
+				<br>
+
+			<div class="row justify-content-center">
+				<form name="que_two">
+
+					Who started the fire?
+
+					<br>
+
+					<input type="radio" name="choice" class="Wrong"> Jim
+					<input type="radio" name="choice" class="Wrong"> Pam
+					<input type="radio" name="choice" class="Cor"> Ryan
+					<input type="radio" name="choice" class="Wrong"> Creed
+
+
+				</form>
+			</div>
+
+				<br>
+
+			<div class="row justify-content-center">
+				<form name="que_three">
+
+					What kind of bear is best?
+
+					<br>
+
+					<input type="radio" name="choice" class="Wrong"> Thats a rediculous question...
+					<input type="radio" name="choice" class="Cor"> False, Black Bear
+					<input type="radio" name="choice" class="Wrong"> MICHEAL!!!
+
+
+				</form>
+			</div>
+
+				<br>
+			
+			<div class="row justify-content-center">
+				<form name="que_four">
+
+					Bears, Beats, Battlestar Galactica?
+
+					<br>
+
+					<input type="radio" name="choice" class="Cor"> True
+					<input type="radio" name="choice" class="Wrong"> False
+
+				</form>
+			</div>
+
+				<br>
+			
+			<div class="row justify-content-center">
+				<form name="que_five">
+
+					How fast can Dwight skin a mule deer?
+
+					<br>
+
+					<input type="radio" name="choice" class="Wrong"> 30 minutes
+					<input type="radio" name="choice" class="Cor"> Under 10 minutes
+					<input type="radio" name="choice" class="Wrong"> 5 minutes max
+					<input type="radio" name="choice" class="Wrong"> What's a mule deer?
+
+
+				</form>
+			</div>
+
+				<br>
+				
+			<div class="row justify-content-center">
+				<!-- Submint button -->
+				<form name="sub">
+					
+					<input type="button" name="Submit" value="SUBMIT" id="done" class="btn btn-secondary">
+
+				</form>
+			</div>
+
+		</div> <!-- of game div -->
+		
+		<div class="text-center">
+			<br>
+			<h3 id="gameOver"> </h3>
+			<br>
+			<div id="wins"> </div>
+			<br>
+			<div id="losses"> </div> 
+			<br>
+		</div>
+
+		</div> <!-- End of Container -->
+
+
+
+	<!-- Audio File -->
+	<audio id=winnerSong>
+	 <source src="assets/images/TheOfficeThemeSong.mp3" type="audio/mpeg"> 
+	</audio>
+
+	<!-- Javascript Files -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="assets/javascript/app.js"> </script>
+
+
+
+	</body>
+
+</html>
